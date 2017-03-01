@@ -1,0 +1,12 @@
+
+<div class="field">
+  <%= form.text_field :document_number %>
+</div>
+
+
+
+<%= form.hidden_field :handler_name %>
+
+<div class="actions">
+  <%= form.submit t("authorize", scope: "decidim.authorizations.new"), class: "button expanded" %>
+</div>

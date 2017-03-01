@@ -1,0 +1,9 @@
+en:
+  decidim:
+    authorization_handlers:
+      census_authorization_handler: Census authorization
+    census_authorization_handler:
+      document_types:
+        dni: DNI
+        nie: NIE
+        passport: Passport
